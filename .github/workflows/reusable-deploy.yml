@@ -27,7 +27,7 @@ jobs:
           name: ${{ inputs.package-name }}
 
       - name: Secret Information
-        run: echo "Value of secret matches - ${{ secrets.azure-profile  == 'Placeholder' }}"
+        run: echo "Value of secret matches - ${{ secrets.azure-profile  == 'test' }}"
 
       - name: Print name of App Service to deploy to
         run: echo "App will be deployed to ${{ inputs.app-name }}"
