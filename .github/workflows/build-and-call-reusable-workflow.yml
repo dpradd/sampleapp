@@ -33,7 +33,8 @@ jobs:
   call-reusable-deployment-workflow-job:
     needs: build-job
 
-    uses: ./.github/workflows/reusable-deploy.yml
+    # uses: ./.github/workflows/reusable-deploy.yml
+    uses: dpradd/shared-workflows/.github/workflows/reusable-deploy-shared-repo.yml@main
     with:
       package-name: .net-app
       app-name: appsvc1
