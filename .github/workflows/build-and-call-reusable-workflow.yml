@@ -1,4 +1,4 @@
-elopmentname: Build and Call Reusable Deploy
+name: Build and Call Reusable Deploy
 
 on:
   workflow_dispatch:
