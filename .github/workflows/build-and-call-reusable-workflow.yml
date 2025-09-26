@@ -1,4 +1,4 @@
-name: Build and Call Reusable Deploy
+elopmentname: Build and Call Reusable Deploy
 
 on:
   workflow_dispatch:
@@ -38,6 +38,6 @@ jobs:
     with:
       package-name: .net-app
       app-name: dprsamplewebapp
-      deployment-slot: dprsamplewebapp
+      deployment-slot: development
     secrets:
       azure-profile: ${{ secrets.AZURE_PUBLISHED_PROFILE }}
