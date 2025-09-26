@@ -38,6 +38,6 @@ jobs:
     with:
       package-name: .net-app
       app-name: dprsamplewebapp
-      deployment-slot: development
+      deployment-slot: dprsamplewebapp
     secrets:
       azure-profile: ${{ secrets.AZURE_PUBLISHED_PROFILE }}
